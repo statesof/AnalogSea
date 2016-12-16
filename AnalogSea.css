@@ -1,0 +1,90 @@
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	background-color: DodgerBlue;
+}
+
+img {
+	height: 35px;
+	margin: 60px auto 0px auto;
+	display: block;
+}
+
+
+
+form {
+	background-color: white;
+	width: 400px;
+	height: 495px;
+	padding: 15px 40px 15px 40px;
+	margin: 35px auto 0px auto;
+}
+
+.text {
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	font-size: 38px;
+	color: DimGray;
+	margin-top: 40px;
+}
+
+.fields {
+	margin: 40px 0px 0px 0px;
+}
+
+label, input {
+	margin: 20px 0px 20px 0px;
+}
+
+label {
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	display: block;
+}
+
+input {
+	width: 320px;
+	border: 2px solid LightGray;
+	padding: 15px;
+	font-size: 18px;
+	display: block;
+}
+
+button {
+	display: block;
+	width: 320px;
+	padding: 15px;
+	font-size: 18px;
+	color: white;
+	background-color: MediumSeaGreen;
+	border: none;
+}
+
+button:hover {
+	background-color: SeaGreen;
+}
+
+.link1 {
+	font-family: Helvetica, sans-serif;
+	color: Gray;
+	font-size: 15px;
+	text-align: center;
+	display: block;
+	margin-top: 15px;
+}
+
+.link2 {
+	color: white;
+	font-family: Helvetica, sans-serif;
+	display: block;
+	margin: 20px auto 60px auto;
+	text-align: center;
+	font-weight: bold;
+}
+
+p > a {
+	color: white;
+}
