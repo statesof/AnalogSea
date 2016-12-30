@@ -2,7 +2,6 @@
 	box-sizing: border-box;
 }
 
-
 body {
 	background-color: DodgerBlue;
 }
@@ -13,8 +12,6 @@ img {
 	display: block;
 }
 
-
-
 form {
 	background-color: white;
 	width: 400px;
@@ -23,16 +20,12 @@ form {
 	margin: 35px auto 0px auto;
 }
 
-.text {
+legend {
 	text-align: center;
 	font-family: Helvetica, sans-serif;
 	font-size: 38px;
 	color: DimGray;
 	margin-top: 40px;
-}
-
-.fields {
-	margin: 40px 0px 0px 0px;
 }
 
 label, input {
@@ -69,7 +62,7 @@ button:hover {
 	background-color: SeaGreen;
 }
 
-.link1 {
+.forgot-password {
 	font-family: Helvetica, sans-serif;
 	color: Gray;
 	font-size: 15px;
@@ -78,7 +71,7 @@ button:hover {
 	margin-top: 15px;
 }
 
-.link2 {
+.log-in {
 	color: white;
 	font-family: Helvetica, sans-serif;
 	display: block;
@@ -89,4 +82,10 @@ button:hover {
 
 p > a {
 	color: white;
+}
+
+fieldset {
+	border: none;
+	padding: 0;
+	margin: 40px 0px 0px 0px;
 }
